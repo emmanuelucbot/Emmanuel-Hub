@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Emmanuel Hub</title>
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    <body>
+        <div id="login">
+            <h2>Login</h2>
+            <input type="text" id="username" placeholder="Username" />
+            <input type="password" id="password" placeholder="Password" />
+            <button onclick="authLogin()">Login</button>
+            <p id="error" style="color: red;"></p>
+        </div>
+    </body>
+
+    <div id="members" class="hidden">
+        <h1>Members and Adherents List 2025</h1>
+        <div id="members-list">Loading . . .</div>
+    </div>
+
+    <script src="scripts/login.js"></script>
+    <script src="scripts/members.js"></script>
+</html>
