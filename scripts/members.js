@@ -22,3 +22,5 @@ function loadMembers() {
             document.getElementById("members-list").innerHTML = "<!> Error loading data . . .";
         });
 }
+
+document.addEventListener("DOMContentLoaded", loadMembers);

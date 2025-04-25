@@ -9,10 +9,6 @@ body {
     margin: auto;
 }
 
-.hidden {
-    display: none;
-}
-
 input {
     padding: 0.5em;
     width: 100%;
